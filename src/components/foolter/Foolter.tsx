@@ -13,16 +13,16 @@ function Footer() {
                     </p>
                     <p className='text-lg'>Acesse nossas redes sociais</p>
                     <div className='flex gap-2'>
-                        <a href="https://github.com/Kendal-Katherine/" target="_blank">
+                        <a href="https://github.com//" target="_blank">
                             <GithubLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.linkedin.com/in/kendal-katherine-correia/" target="_blank">
+                        <a href="https://www.linkedin.com/in//" target="_blank">
                             <LinkedinLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.instagram.com/kendal.katherine/" target="_blank">
+                        <a href="https://www.instagram.com//" target="_blank">
                             <InstagramLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100071062966062" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <FacebookLogo size={48} weight='bold' />
                         </a>
                     </div>
