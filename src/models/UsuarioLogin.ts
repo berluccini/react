@@ -1,8 +1,8 @@
-export interface UsuarioLogin{
-    id:	number;
+export default interface Usuario {
+    id: number;
     nome: string;
-    Usuário: string;
+    usuario: string;
     senha: string;
-    foto:string;
-    token :string;
+    foto: string;
+    token: string;
 }
