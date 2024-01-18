@@ -1,42 +1,45 @@
+﻿import { useNavigate, Link } from "react-router-dom"
 
 
-function Home (){
-
-    return(
+function Home() {
+    const navigate = useNavigate()
+    return (
+      
         <>
-        <div style={{
-            width: "100vw",
-            display:"flex",
-            justifyContent: "center"
-            }}>
-            <div style={{
-                width:"80vw",
-                display:"flex",
-                flexDirection:"column",
-                alignItems:"center"
-            }}>
-                <h2>seja bem vindo</h2>
-                
-                <p>expresse aqui seus sentimentos</p>
-                <div>
+            <div id="container" className="bg-blue-500 flex justify-center">
+                <div id="subcontainer" className="container grid grid-cols-2 text-white">
+                    <div id="texto" className="flex flex-col gap-4 items-center justify-center py-4" >
+                        <h2 className="
+                        text-5xl
+                        font-bold">Seja Bem Vinde</h2>
+                        <p className="text-xl">Expresse aqui os seus pensamentos</p>
+                        
+                        <div className="flex justify-around gap-4">
+                            <div className="rounded text-white border-white border-solid border-2 px-4 py-2">
+                                Nova Postagem
+                            </div>
+                        </div>
 
+                    </div>
+                    <div id="imagem" className="flex justify-center">
+                        <img src="src\assets\img\"
+                            alt="Imagem da Página"
+                            className="w-2/3"/>
+                    </div>
 
-                <img src="" alt="" />
-
-
-
-
-
+                    <div>
+                    <button type="submit"
+                        onClick={() => { navigate('/login') }}
+                        className="hover:underline mx-4">
+                        Login useNavigate
+                    </button>
+                    <Link to='/login' className="hover:underline mx-4">Login por Link</Link>
                 </div>
-            </div>
-        </div>
-        
-        
-        
-        
+                </div>
+            </div >
         </>
-
     )
+
 }
 
 export default Home
