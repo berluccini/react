@@ -1,4 +1,4 @@
-﻿import { LinkedinLogo, GithubLogo } from '@phosphor-icons/react'
+﻿import { LinkedinLogo, GithubLogo, FacebookLogo, InstagramLogo } from '@phosphor-icons/react'
 
 function Footer() {
 
@@ -11,6 +11,8 @@ function Footer() {
                     <div className='flex gap-2'>
                         <LinkedinLogo size={48} weight='bold' />
                         <GithubLogo size={48} weight='bold' />
+                        <FacebookLogo size={48} weight='bold'/>
+                        <InstagramLogo size={48} weight='bold'/>
                     </div>
                 </div>
             </div>
