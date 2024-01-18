@@ -22,7 +22,7 @@ function Home() {
 
                     </div>
                     <div id="imagem" className="flex justify-center">
-                        <img src="src\assets\img\"
+                        <img src="src\assets\img\static-assets-animate.svg"
                             alt="Imagem da Página"
                             className="w-2/3"/>
                     </div>
